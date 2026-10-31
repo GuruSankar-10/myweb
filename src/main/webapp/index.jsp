@@ -40,7 +40,7 @@
     </style>
 </head>
 <body>
-    <h1>chintu-v3.0</h1>
+    <h1>chintu-v4.0</h1>
 </body>
 </html>
 
