@@ -1,49 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chintu-v3.0</title>
-    <style>
-        /* Apply a linear gradient background */
-        body {
-            background: linear-gradient(45deg, #ff6b6b, #f7b7a3, #f7d6e0, #f7b7a3);
-            background-size: 400% 400%;
-            animation: gradientAnimation 10s ease infinite;
-            color: green;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        /* Keyframes for gradient animation */
-        @keyframes gradientAnimation {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        /* Style for the heading */
-        h1 {
-            font-size: 4rem;
-            font-weight: bold;
-            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7),
-                         -1px -1px 2px rgba(0, 0, 0, 0.7),
-                         1px -1px 2px rgba(0, 0, 0, 0.7),
-                         -1px 1px 2px rgba(0, 0, 0, 0.7),
-                         1px 1px 2px rgba(0, 0, 0, 0.7);
-        }
-    </style>
+    <title>Login Application</title>
 </head>
 <body>
-    <h1>Sai-v4.0</h1>
+
+```
+<center>
+    <h1>Welcome to Login Application</h1>
+
+    <hr width="400">
+
+    <h2>User Login</h2>
+
+    <form>
+        <table cellpadding="10">
+
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <input type="email" placeholder="Enter Email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" placeholder="Enter Password" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Login</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+    <p>Don't have an account? <a href="#">Register Here</a></p>
+
+    <hr width="400">
+
+    <footer>
+        <p>Copyright © 2026 Login Application</p>
+    </footer>
+
+</center>
+```
+
 </body>
 </html>
-
-
-
-
