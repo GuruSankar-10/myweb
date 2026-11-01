@@ -8,7 +8,7 @@
 
 ```
 <center>
-    <h1>Welcome to Login application</h1>
+    <h1>Welcome to Login Application</h1>
 
     <hr width="400">
 
